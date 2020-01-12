@@ -15,7 +15,7 @@ count = []
     @@genres << genre
     @@artist << artist
   end
-binding.pry
+
   def self.count
     @@count
   end
