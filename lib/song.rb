@@ -5,7 +5,7 @@ count = []
 @@artist = []
 @@genre = []
 
-  def initilize(name, artist, genre)
+  def initilize
     @name = name
     @artist = artist
     @genre = genre
@@ -25,8 +25,5 @@ count = []
   def self.genre
     @@genre
   end
-
-  
-
 
 end
