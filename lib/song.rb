@@ -10,5 +10,12 @@ class Song
 
   def song_genre= (genre)
     @genre = genre
-  end 
+  end
 end
+
+song_name = Song.new
+song_name =("Lucifer")
+artist_name = artist.new
+artist_name =("Jay-z")
+song_genre = genre.new
+song_genre =("rap")
