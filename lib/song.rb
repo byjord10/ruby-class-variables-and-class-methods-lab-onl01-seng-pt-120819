@@ -1,21 +1,19 @@
 class Song
+  attr_accessor :name, :genre, :artist 
 
-  def song_name=(name)
+count = []
+@@artist = []
+@@genre = []
+
+  def initilize(name, artist, genre)
     @name = name
-  end
-
-  def artist_name= (artist)
     @artist = artist
-  end
-
-  def song_genre= (genre)
     @genre = genre
+    @@count += 1
+    @@genres << genre
+    @@artist << artist
   end
-end
 
-song_name = Song.new
-song_name =("Lucifer")
-artist_name = artist.new
-artist_name =("Jay-z")
-song_genre = genre.new
-song_genre =("rap")
+
+
+end
